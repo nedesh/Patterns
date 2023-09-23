@@ -11,8 +11,8 @@ public class AbstractFactory {
             ifactory = new MortgagePercentAbsFactory();
         }
 
-        AlphaBank lada = ifactory.getAlphaBank();
-        System.out.println(lada.getAlphaBankPercent());
+        AlphaBank alpha = ifactory.getAlphaBank();
+        System.out.println(alpha.getAlphaBankPercent());
     }
 }
 
